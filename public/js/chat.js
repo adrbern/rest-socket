@@ -1,6 +1,6 @@
 const url = (window.location.hostname.includes('localhost'))
     ? 'http://localhost:8080/api/auth/'
-    : null;
+    : 'https://rest-socket-adr.herokuapp.com/api/auth/';
     
 let usuario = null;
 let socket = null;
